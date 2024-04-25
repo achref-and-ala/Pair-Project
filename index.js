@@ -1,6 +1,4 @@
-var happySound = document.getElementById('happy-sound');
 var hungrySound = document.getElementById('hungry-sound');
-var sleepySound = document.getElementById('sleepy-sound');
 $('.container').hide()
 $('.heart-life').hide()
 $('.progress-hungry').hide()
@@ -65,10 +63,18 @@ $('.msg-play').on('click',function(){
     $('.hello-cat').attr('src','img/peach-and.gif')
     $('#hungry-sound').attr('src','sounds/happy.wav')
     if(result2===100){
+        $('.msg-play').hide()
         $('.hello-cat').attr('src','img/peach-tired.gif')
         $('.msg-hungry').hide()
         $('#hungry-sound').attr('src','sounds/tired.wav')
+        setTimeout(function(){
+            $('.hello-cat').attr('src','img/sleepingcat.gif')
+            $('#hungry-sound').attr('src','sounds/sleeping.mp3')
+        },5000)
     }
 })
+
+
+
 
 
