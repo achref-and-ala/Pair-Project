@@ -1,12 +1,28 @@
 var hungrySound = document.getElementById('hungry-sound');
-$('.container').hide()
+$('.mygame').hide()
+$('.catname').hide()
 $('.heart-life').hide()
 $('.progress-hungry').hide()
 $('.progress-play').hide()
 $('.playwithme').hide()
 $('.msg-hungry').hide()
 $('.msg-play').hide()
+$('.gobt').on('click',function(){
+    var name = $('.inptcatname').val()
+    if(name === ''){
+        alert('Please Choose a name to start')
+    } 
+    else{
+    name=$('.inptcatname').val()
+    $('.text-name').text(`${name}`)
+    $('.mygame').show()
+    $('.catname').hide()
+    }
+   
+    
+})
 $('.start').on('click',function(){
+    $('.catname').show()
     $('.container').show()
     $('.home').hide()
     $('.heart-life').show()
@@ -30,6 +46,7 @@ $('.start').on('click',function(){
             
                 },8000)
 })
+
 var result=0
 $('.msg-hungry').on('click',function(){
     $('#hungry-sound').attr('src','sounds/happy.wav')
@@ -73,6 +90,8 @@ $('.msg-play').on('click',function(){
         },5000)
     }
 })
+
+
 
 
 
