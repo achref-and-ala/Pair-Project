@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(255, 241, 215);
+}
+.logo{
+    height: 300px;
+    margin-left: 370px;
+    
+}
+.start{
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+}
+#play{
+height: 100px;
+
+}
+.baground{
+    position: absolute;
+    height: 420px;
+    margin-left: 21%;
+    border-radius: 20px;
+}
+.hello-cat{
+    height: 170px;
+    position: absolute;
+    margin-left:22% ;
+    margin-top:20%;
+
+}
+.sushi{
+    height: 40px;
+
+}
+.eat-button{
+    margin-top: 39%;
+    margin-left: 38%;
+    background: #d6c3c3;
+    border: none;
+    cursor: pointer;
+}
+
+.progress-hungry {
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 40%;
+    background-color: #b3b3b3;
+    height: 15px;
+    width: 150px;
+    border-radius: 10px;
+  }
+
+  .progress-hungry span {
+    display: inline-block;
+    height: 100%;
+    border-radius: 10px;
+    
+  }
+  .red span {
+    background-color: #eb2782;
+  }
+  .heart-life{
+    height: 40px;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 4px;
+  }
+  .progress-play {
+    position:absolute;
+    margin-top: 58px;
+    margin-left: 41%;
+    background-color: #b3b3b3;
+    height: 15px;
+    width: 150px;
+    border-radius: 10px;
+  }
+
+  .progress-play span {
+    display: inline-block;
+    height: 100%;
+    border-radius: 10px;
+    
+  }
+  .blue span {
+    background-color: #455eee;
+  }
+.playwithme{
+    height: 38px;
+    position:absolute;
+    margin-left: 39%;
+    margin-top: 46px;
+}
+.msg-hungry{
+    position: absolute;
+    height: 50px;
+    margin-top: 38.4%;
+    margin-left:30% ;
+    border-radius: 20px;
+    cursor: pointer;
+}
