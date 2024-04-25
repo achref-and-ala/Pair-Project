@@ -1,10 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Skranji&display=swap");
 *{
     margin:0;
     padding:0;
 }
 body{
     background-color: rgb(255, 241, 215);
+}
+.bgcatname{
+  position:absolute;
+  height: 400px;
+  margin-left: 35%;
+}
+.mycat-name{
+  position: absolute;
+  height: 40px;
+  margin-left: 22%;
+  margin-top: 9px;
+}
+.text-name{
+  font-family: Skranji;
+  font-size: 17px;
+  position: absolute;
+  margin-left: 26%;
+  margin-top: 19px;
+}
+#gobtn{
+  position: absolute;
+  height: 70px;
+  margin-top: 35%;
+  margin-left: 42%;
+  cursor: pointer;
+}
+.inptcatname{
+  position:absolute;
+  margin-top: 20%;
+  margin-left: 39%;
+  border: none;
+  height: 40px;
+  text-align: center;
+  font-family: skranji;
+  font-size: 18px;
+  border-radius: 20px;
+  color: #7812b3;
+  outline: none;
 }
 .logo{
     height: 300px;
