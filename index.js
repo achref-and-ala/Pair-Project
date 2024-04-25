@@ -1,6 +1,4 @@
-var happySound = document.getElementById('happy-sound');
 var hungrySound = document.getElementById('hungry-sound');
-var sleepySound = document.getElementById('sleepy-sound');
 $('.container').hide()
 $('.heart-life').hide()
 $('.progress-hungry').hide()
@@ -45,6 +43,9 @@ $('.msg-hungry').on('click',function(){
     }
 
 })
+
+
+
 
 
             
