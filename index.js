@@ -33,6 +33,5 @@ $('.msg-hungry').on('click',function(){
         $('.hello-cat').attr('src','img/peach-goma.gif')
         $('.msg-hungry').hide()
     }
-
 })
 
